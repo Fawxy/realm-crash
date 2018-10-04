@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UnO-zC-cSn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Diary-->
+        <scene sceneID="xT9-WN-9K1">
+            <objects>
+                <navigationController id="UnO-zC-cSn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Diary" image="tab-bar-diary" id="i7e-MC-i7O"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="6jP-gs-NH6">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YX8-OZ-kPb" kind="relationship" relationship="rootViewController" id="a2u-1t-6wk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8c-et-UYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="-338"/>
+        </scene>
+        <!--Diary-->
+        <scene sceneID="eJJ-da-B2D">
+            <objects>
+                <viewController id="YX8-OZ-kPb" customClass="DiaryViewController" customModule="Realm_Crash" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YZ5-pY-LMb"/>
+                        <viewControllerLayoutGuide type="bottom" id="nTt-kA-0n2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sdv-pb-OgH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbp-ED-V5q">
+                                <rect key="frame" x="154.5" y="286.5" width="66" height="30"/>
+                                <state key="normal" title="Crash me"/>
+                                <connections>
+                                    <action selector="crash:" destination="YX8-OZ-kPb" eventType="touchUpInside" id="fQ6-K6-DJq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pbp-ED-V5q" firstAttribute="centerY" secondItem="Sdv-pb-OgH" secondAttribute="centerY" id="0ef-MB-3h0"/>
+                            <constraint firstItem="pbp-ED-V5q" firstAttribute="centerX" secondItem="Sdv-pb-OgH" secondAttribute="centerX" id="8il-jK-gRZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Diary" id="Wta-wX-tif">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="4VN-3t-0EG"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vk3-Qf-yW5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1904.8" y="-337.78110944527737"/>
+        </scene>
+        <!--Track Lesson View Controller-->
+        <scene sceneID="R1x-AV-tTd">
+            <objects>
+                <viewController storyboardIdentifier="TrackLessonViewController" id="JIL-PB-WoR" customClass="TrackLessonViewController" customModule="Realm_Crash" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U6w-FT-Zzt"/>
+                        <viewControllerLayoutGuide type="bottom" id="BRe-MW-WxI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XVr-ra-X0Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RSG-5A-n0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2686" y="-339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab-bar-diary" width="23" height="23"/>
+    </resources>
+</document>

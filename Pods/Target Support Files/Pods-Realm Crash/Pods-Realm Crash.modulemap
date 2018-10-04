@@ -1,0 +1,6 @@
+framework module Pods_Realm_Crash {
+  umbrella header "Pods-Realm Crash-umbrella.h"
+
+  export *
+  module * { export * }
+}
