@@ -36,26 +36,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0694888FFF848B5CA6267BEC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		12D2D0ACA5D40BAFF9BAD657 /* Pods_Realm_Crash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_Crash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1D86A919442D0E4357C758 /* Pods-Realm Crash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Crash.release.xcconfig"; path = "Target Support Files/Pods-Realm Crash/Pods-Realm Crash.release.xcconfig"; sourceTree = "<group>"; };
-		3E7C79321C873F7F00083120 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		3EA49D4D1C87448400D91AFC /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = "Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework"; sourceTree = "<group>"; };
 		3EBDF4C71C689FCF0045CD92 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EBDF4D21C68A0DE0045CD92 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBDF5161C68A8610045CD92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EBDF5331C68F5CD0045CD92 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		3EBDF55F1C6CF1D90045CD92 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		3ED35F9F1C689EBE0058931B /* Realm Crash Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Crash Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5595F7D542E15483BF459B05 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		5D1744432ECD6989D2AC9267 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		68E07ED2B23880E63DF19BA2 /* Pods-Realm Crash.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Crash.beta.xcconfig"; path = "Target Support Files/Pods-Realm Crash/Pods-Realm Crash.beta.xcconfig"; sourceTree = "<group>"; };
 		75EC8C4BD7B4B03E60FD5062 /* Pods-Realm Crash.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Crash.beta release.xcconfig"; path = "Target Support Files/Pods-Realm Crash/Pods-Realm Crash.beta release.xcconfig"; sourceTree = "<group>"; };
-		8EAB8AC080DE99F26AF702DB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		9CE73439067EA82E7A89C62E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		AFFB807D5532A7B5CF3FADCC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		E1E0DC1B3758223FA2722D83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E55BE00A38468A435C1BD388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E69A13E0A641C98E4108655B /* Pods-Realm Crash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Crash.debug.xcconfig"; path = "Target Support Files/Pods-Realm Crash/Pods-Realm Crash.debug.xcconfig"; sourceTree = "<group>"; };
 		F6251E3E1D8DD207001F908F /* BackendConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendConfiguration.swift; sourceTree = "<group>"; };
 		F6251E401D8DD331001F908F /* BackendAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendAPIRequest.swift; sourceTree = "<group>"; };
@@ -79,7 +69,6 @@
 		F684839C216656CE008B7286 /* Realm Crash Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Realm Crash Dev.entitlements"; sourceTree = "<group>"; };
 		F68977391FA1FF60004E2983 /* LessonReportItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonReportItem.swift; sourceTree = "<group>"; };
 		F689773C1FA213C5004E2983 /* LessonReportResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonReportResponseMapper.swift; sourceTree = "<group>"; };
-		F6D80BE81DABC29B00E1BF04 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,17 +133,6 @@
 		3EBDF50A1C68A49E0045CD92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3EA49D4D1C87448400D91AFC /* Mapbox.framework */,
-				3E7C79321C873F7F00083120 /* MapKit.framework */,
-				5595F7D542E15483BF459B05 /* AssetsLibrary.framework */,
-				5D1744432ECD6989D2AC9267 /* CoreText.framework */,
-				0694888FFF848B5CA6267BEC /* CoreTelephony.framework */,
-				E1E0DC1B3758223FA2722D83 /* SystemConfiguration.framework */,
-				9CE73439067EA82E7A89C62E /* QuartzCore.framework */,
-				E55BE00A38468A435C1BD388 /* AVFoundation.framework */,
-				AFFB807D5532A7B5CF3FADCC /* CoreMedia.framework */,
-				8EAB8AC080DE99F26AF702DB /* CoreVideo.framework */,
-				F6D80BE81DABC29B00E1BF04 /* NotificationCenter.framework */,
 				12D2D0ACA5D40BAFF9BAD657 /* Pods_Realm_Crash.framework */,
 			);
 			name = Frameworks;
